@@ -26,13 +26,6 @@ body {
     border-radius: 10px;
   }
 
-  picture > source {
-    display: block;
-    border-radius: 10px 10px 0 0;
-    width: 375px;
-    height: auto;
-  }
-
   section.content {
     display: flex;
     flex-direction: column;
@@ -108,13 +101,6 @@ body {
     margin: 20px 15px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-  }
-
-  header > img {
-    display: block;
-    border-radius: 10px 0 0 10px;
-    width: 375px;
-    height: auto;
   }
 
   section.content {
