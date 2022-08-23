@@ -26,6 +26,12 @@ body {
     border-radius: 10px;
   }
 
+  picture > img {
+    border-radius: 10px 10px 0 0;  
+    width: 375px; 
+    height: 100%;
+  }
+
   section.content {
     display: flex;
     flex-direction: column;
@@ -101,6 +107,12 @@ body {
     margin: 20px 15px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
+  }
+
+  picture > img {
+    border-radius: 10px 0 0 10px;  
+    width: 375px; 
+    height: 100%;
   }
 
   section.content {
